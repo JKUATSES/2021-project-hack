@@ -161,4 +161,11 @@ services:
       ES_JAVA_OPTS: "-Xms1g -Xmx1g"
     volumes:
       - ./elasticsearch/data/es-data:/usr/share/elasticsearch/data
-
+  nginx:
+    image: nginx:latest
+    container_name: "nginx"
+    volumes:
+      - "./nginx/files:/files"
+      - "./nginx/conf:/etc/nginx/conf.d"
+    ports:
+      - "8080:80"
