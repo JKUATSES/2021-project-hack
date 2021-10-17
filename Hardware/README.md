@@ -23,7 +23,8 @@ Our assessment covers the following areas:
 
     - Be able to compensate for random tape in the track. (Random tape will be added - See the provided track)
 
-    - Follow the provided track.
+    - Follow the provided track.[track.pdf](https://github.com/JKUATSES/2021-project-hack/files/7359907/track.pdf)
+
 
 
 ## Functional spec
